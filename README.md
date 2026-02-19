@@ -105,3 +105,8 @@ Github link:
 https://github.com/Sabrinaltahan/SPA-JWT-CRUD.git
 
 Applikation link:
+
+Backend API: https://spa-jwt-crud.onrender.com
+
+Frontend App: https://spa-jwt-crud-1.onrender.com
+
