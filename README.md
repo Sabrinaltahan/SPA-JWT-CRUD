@@ -12,9 +12,7 @@ The application demonstrates:
 - TypeScript with defined interfaces
 - Error handling and user feedback
 
----
-
-## 🚀 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React
@@ -32,9 +30,7 @@ The application demonstrates:
 - CORS
 - In-memory database (for demo purposes)
 
----
-
-## 🔐 Authentication
+##  Authentication
 
 - Login endpoint: `POST /auth/login`
 - JWT token returned in response
@@ -42,14 +38,12 @@ The application demonstrates:
 - Protected routes require Authorization header
 - Admin page accessible only when logged in
 
-Test credentials:
-
+## Test credentials:
 Email: admin@test.com
 Password: admin123
 
----
 
-## 📦 Features
+## Features
 
 ### Public Area
 - View all products
@@ -64,7 +58,7 @@ Password: admin123
 
 ---
 
-## 🛠 Installation
+## Installation
 
 ### 1️-Clone repository 
 git clone
@@ -83,33 +77,21 @@ Frontend runs on:http://localhost:5173
 ## Authentication
 POST/auth /login
 ### Products
-GET    /products GET    /products/:id POST   /products        (protected) PUT    /products/:id    (protected) DELETE /products/:id    (protected)
+GET    /products 
+GET    /products/:id
+POST   /products        (protected) 
+PUT    /products/:id    (protected) 
+DELETE /products/:id    (protected)
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 - Mobile-friendly layout
 - Responsive grid
 - Hamburger menu for navigation
 
----
-
-## 📌 Deployment
-
-Frontend and backend can be deployed separately using services like:
-
-- Render
-- Vercel
-- Netlify
-
-Environment variables should be used for:
-
----
-
-## 🎯 Project Goal
-
-This project was created as part of a course assignment to demonstrate:
+## Project Goal
 
 - SPA architecture
 - Authentication with JWT
@@ -120,7 +102,6 @@ This project was created as part of a course assignment to demonstrate:
 ## Developed : by Sabrin Altahan
 
 Github link:
+https://github.com/Sabrinaltahan/SPA-JWT-CRUD.git
 
-
-
-g
+Applikation link:
