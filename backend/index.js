@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 const JWT_SECRET = "super_secret_key_change_me";
 
 // ----- Fake DB (in-memory) -----
@@ -106,4 +106,4 @@ app.delete("/products/:id", auth, (req, res) => {
   res.status(204).send();
 });
 
-app.listen(PORT, () => console.log(`API running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`API running on port ${PORT}`));
